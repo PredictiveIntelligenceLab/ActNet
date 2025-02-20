@@ -1,10 +1,10 @@
 # ActNet
 
-Repository for some of the experiments presented in the paper "Deep Learning Alternatives of the Kolmogorov Superposition Theorem", acepted in ICLR 2025. (arXiv: https://arxiv.org/abs/2410.01990)
+Repository for some of the experiments presented in the paper "Deep Learning Alternatives of the Kolmogorov Superposition Theorem", acepted as a Spotlight Paper in ICLR 2025. (arXiv: https://arxiv.org/abs/2410.01990)
 
 This code requires common libraries of the JAX environment, such as Flax (for neural network design) and Optax/JaxOpt (for training and optimization). Plotting is done using Matplotlb.
 
-Experiments comparing against the state-of-the-art require integration with JaxPi, which is an open-source library. We will work to integrate ActNet with this library in the future and are happy to provide more details if requested.
+Experiments comparing against the state-of-the-art require integration with JaxPi, which is an open-source library. The code for those experiments can now be found on the ActNet branch of JaxPi: https://github.com/PredictiveIntelligenceLab/jaxpi/tree/ActNet
 
 FILES:
 * archs.py : includes the architectures used in the paper, including JAX implementations of ActNet, KAN and Siren.
